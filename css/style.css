@@ -1,0 +1,42 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+html {
+   scroll-behavior: smooth;  
+}
+
+.section-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cabecalho{
+    height: 90px;
+    width: 100%;
+    display: flex;
+}
+
+body {
+     background-color:#000;
+     color:#fff;
+     background-repeat: no-repeat;
+}
+
+.card-container{
+    background: #fff;
+    border-radius: 25px;
+}
+
+footer{
+    height: 100px;
+    padding: 25px;
+    text-align: center;
+    background-color:#ffdd54;
+    color: #000;
+}
