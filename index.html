@@ -9,29 +9,71 @@
 </head>
 <body>
   <section class="cabecalho">
-   <p> Inicio  
-   </p>
+    <div class="logo">
+      <img src="imagens/logoloja2cortada.png" alt=logoloja height="75%">
+    </div>
+  
+    <div class="menu">
+      <ul> 
+        <li>Início</li>
+        <li>Novidades</li>
+        <li>Conheça nossos Afroempreendedores</li>
+      </ul>
+    </div>
+  
   </section>
   <section class="section-container">
     <img src="imagens/bannerpromocional.png" alt="Logotipo" width="100%">
   </section> 
-  <section class="section-container background-section"> 
+  <section>
+    <h1 class="titulo-contagemregressiva">CONTAGEM REGRESSIVA </h1>
+  </section>
+  <section class="contagem-regressiva">
     <div>
-        <div>
-            <form action="">
-               <input type="text" placeholder="nome"> 
-               <input type="text" placeholder=" email">
+     <p id="contagemregressiva-dias"></p>
+     <p>dias</p>
+    </div>
+    <div>
+     <p id="contagemregressiva-horas"></p>
+     <p>horas</p>
+    </div>
+    <div>
+     <p id="contagemregressiva-minutos"></p>
+     <p>min</p>
+    </div>
+    <div>
+     <p id="contagemregressiva-segundos"></p>
+     <p>seg</p>
+    </div>
+  </section>
+  <section class="formcontainer"> 
+    <div class="card-container">
+          <h1>Cadastre-se e receba novidades e promoções:</h1>
+          <div id="content">
+            <form id="form">
+               <input type="text" placeholder="Seu nome completo" id="nome"> 
+               <input type="text" placeholder="Seu melhor e-mail" id="email">
                <input type="submit" value="Cadastrar">
             </form>
-        </div>
+          </div>   
     </div>
   </section>
 
-
-
   <footer>
-      <p>Criado por Juniele Silva Desafio Hiring Coders2</p>
-  
+      <div class="footer1">
+        <ul>
+          <li>Quem Somos</li>
+          <li>Nossos Afroempreendedores</li>
+        </ul>
+      </div>
+      <div class="footer2">
+        <ul>
+          <li>Politica de Privacidade</li>
+          <li>Trocas,Devoluções e/ou Reembolsos</li>
+      </div>
+      <div class="footer3">
+        <p>junielesilva&copy;2021 Todos os direitos reservados.</p>
+      </div>
   </footer>
 </body>
 <script src="js/script.js"></script>
